@@ -12,7 +12,6 @@ public class iAlunoRepository implements Interface{
         Aluno.add(aluno);
     }
 
-    // return>-1 achou o aluno   -----   return < 0 não achou 
     public int busca(String nome){
         for(Aluno aluno : Aluno){
             if(aluno.getNome().equals(nome)){
