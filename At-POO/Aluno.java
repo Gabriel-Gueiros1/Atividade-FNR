@@ -4,8 +4,8 @@ public class Aluno {
     private int matricula;
 
     Aluno(String nome, int matricula){
-        setMatricula(matricula);
-        setNome(nome);
+        this.nome = nome;
+        this.matricula = matricula;
     }
 
     public void setNome(String nome) {
