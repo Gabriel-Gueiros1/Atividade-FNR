@@ -6,7 +6,7 @@ public class App {
         Aluno aluno3 = new Aluno("Marcio", 3);
         Aluno aluno4 = new Aluno("Jonathan", 4);
         Aluno aluno5 = new Aluno("Josias", 5);
-        Aluno aluno6 = new Aluno("Josias", 5);
+        Aluno aluno6 = new Aluno("Fabricio", 6);
 
         iAlunoRepository repositorio = new iAlunoRepository();
 
